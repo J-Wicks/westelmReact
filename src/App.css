@@ -1,0 +1,174 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1; }
+
+* {
+  font-family: "Flama-4n", "Flama", Helvetica, Arial, sans-serif; }
+
+#sections {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black; }
+
+#sections div:not(:first-child) {
+  border-top: 1px solid lightgray; }
+
+.headerLogo img {
+  display: block;
+  width: 20%;
+  margin: 10px auto; }
+
+#productDescription p, li {
+  font-family: "Flama-4n", "Flama", Helvetica, Arial, sans-serif;
+  color: gray;
+  font-size: 12px; }
+
+#productDescription h1 {
+  font-family: "Times New Roman", Georgia, serif;
+  color: black;
+  font-weight: lighter;
+  font-size: 20px; }
+
+ol * {
+  list-style: none;
+  display: inline; }
+
+#navLinks {
+  overflow: hidden;
+  padding: 1px;
+  font-size: 14px; }
+
+#checkoutModal {
+  position: absolute;
+  left: 0;
+  width: 50vw;
+  height: 20px;
+  margin: 0;
+  font-size: 14px;
+  color: white;
+  padding: 5px;
+  background-color: rgba(52, 52, 52, 0.59); }
+
+#navLinks * {
+  font-family: "Flama-4n", "Flama", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: white; }
+
+#navLinks ol {
+  display: table;
+  width: 100%;
+  list-style: none; }
+
+#navLinks ol li {
+  height: 25px;
+  padding: 10px 0 0 5px;
+  background-color: #343434;
+  display: table-cell;
+  text-align: center; }
+
+#navLinks ol li a {
+  display: inherit; }
+
+.last {
+  padding: 0 0 0 15px;
+  border-left: 1px solid white;
+  background: #293659 !important; }
+
+#checkoutButton {
+  padding: 0;
+  border: 0px;
+  background-image: url("./assets/button-add-to-cart.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 40px;
+  width: 150px;
+  margin: 5px 0 5px 0; }
+
+#productDescription {
+  display: inline-block;
+  float: right;
+  width: 45vw; }
+
+#sections h2 {
+  display: inline-block; }
+
+.expanded:before {
+  content: url("./assets/arrow-expanded.png"); }
+
+.collapsed p {
+  display: none; }
+
+.collapsed:before {
+  content: url("./assets/arrow-collapsed.png"); }
+
+#breadcrumb li {
+  font-size: .8em;
+  color: gray; }
+
+#breadcrumb li::after {
+  content: ' > '; }
+
+#breadcrumb li:last-child:after {
+  content: ''; }
+
+#breadcrumb li:last-child {
+  font-weight: bold; }
+
+#selectedImg {
+  padding: 10px 50px; }
+
+#quantity {
+  width: 50px;
+  font-size: 16px;
+  text-align: right; }
+
+#footer {
+  width: 100%;
+  background-color: #E6F7FC;
+  border-top: 1px solid black; }
+
+#footer div {
+  font-size: 12px;
+  width: 45%;
+  height: 30px;
+  margin: 10px auto; }
+
+#footer a {
+  text-decoration: none;
+  color: black; }
+
+#footer a:before {
+  content: '| '; }
+
+#price {
+  margin: 5px 0 5px 0;
+  font-weight: lighter;
+  font-size: 1.1em;
+  color: black; }
+
+.selected {
+  border: 2px solid black;
+  border-radius: 5px; }
+
+.helv {
+  font-family: "Flama-4n", "Flama", Helvetica, Arial, sans-serif; }
+
+.blackbg {
+  background-color: #343434;
+  color: white; }
+
+.bluebg {
+  background-color: blue; }
+
+.upper {
+  text-transform: uppercase; }
+
+.graytext {
+  color: gray; }
+
+.block {
+  display: block; }
+
+#price::before {
+  content: '$'; }
+
+/*# sourceMappingURL=output.css.map */
