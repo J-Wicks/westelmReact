@@ -11,9 +11,9 @@ export default class BigImage extends Component {
 
   render() {
     return(
-      <div>
+      <span>
         <img id="selectedImg" alt="Monogrammed Apron" src={this.state.imageSource} />
-      </div>
+      </span>
     )
   }
 }

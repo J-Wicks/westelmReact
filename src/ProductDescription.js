@@ -3,7 +3,7 @@ import React from 'react';
 export default () => (
   <div id="productDescription">
     <h1>
-      Williams-Sonoma classNameic Apron, French Blue
+      Williams-Sonoma classic Apron, French Blue
     </h1>
     <p>
       A generiously sized apron is a necessity in any kitchen, and ours will brighten yours with lively color. Sewn of thick cotton, it can be personalized or monogrammed with up to nine characters, all the same height, embroidered in your choice of color. An apron of this quality makes a wecome gift for any cook.
