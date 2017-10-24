@@ -1,5 +1,5 @@
 import React from 'react';
-import headerSrc from './assets/logo.png';
+import headerSrc from '../assets/logo.png';
 
 export default () => (
   <div className="headerLogo" >
